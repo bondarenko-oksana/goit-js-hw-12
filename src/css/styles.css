@@ -127,5 +127,22 @@ button:hover {
   margin: 20px auto;
 }
 
+
+
+.load-more {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: 40px;
+    transition: background 0.3s ease;
+}
+          
+button:hover {
+    background: #6c8cff;
+}
+
+    
 .hidden {
-  display: none;}
+    display: none;
+}
+  
