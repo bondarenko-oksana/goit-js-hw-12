@@ -12,10 +12,10 @@ export function createGallery(images) {
     <a class="gallery-item" href="${img.largeImageURL}">
       <img src="${img.webformatURL}" alt="${img.tags}" loading="lazy">
       <div class="info">
-        <p>Likes: ${img.likes}</p>
-        <p>Views: ${img.views}</p>
-        <p>Comments: ${img.comments}</p>
-        <p>Downloads: ${img.downloads}</p>
+        <p><b>Likes:</b> ${img.likes}</p>
+        <p><b>Views:</b> ${img.views}</p>
+        <p><b>Comments:</b> ${img.comments}</p>
+        <p><b>Downloads:</b> ${img.downloads}</p>
       </div>
     </a>
   `).join("");

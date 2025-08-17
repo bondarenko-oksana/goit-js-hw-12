@@ -27,8 +27,9 @@ form.addEventListener("submit", async event => {
       message: "Please enter a search term",
       position: "topRight",
     });
+     
     return;
-  }
+    }
 
   currentQuery = query;
   currentPage = 1;
@@ -101,5 +102,5 @@ loadMoreBtn.addEventListener("click", async () => {
     console.error(error);
   } finally {
     hideLoader();
-  }
+     }
 });
